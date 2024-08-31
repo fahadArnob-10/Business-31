@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-items{
+    @apply text-[22px] font-semibold hover:text-blue-400;
+}
+.nav-link2{
+    @apply text-xl font-semibold hover:bg-[#e4e3e3] h-10 flex items-center pl-3 rounded-xl;
+}
