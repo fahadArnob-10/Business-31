@@ -13,7 +13,9 @@
   <body class="h-screen bg-white">
     <!-- নেভবার  -->
 
-    <header class="bg-black text-white fixed w-full top-0 z-50 lg:px-16 2xl:px-32">
+    <header
+      class="bg-black text-white fixed w-full top-0 z-50 lg:px-16 2xl:px-32"
+    >
       <nav class="container mx-auto flex justify-between items-center p-4">
         <a href="#" class="text-2xl font-bold">WpShoMart</a>
         <button id="menu-toggle" class="lg:hidden focus:outline-none">
@@ -84,12 +86,15 @@
           </li>
         </ul>
       </nav>
-      <ul
-        id="mobile-menu"
-        class="h-screen lg:hidden flex flex-col items-center gap-5 bg-black p-4"
+       <div id="mobile-menu" class="hidden"> 
+        <ul
+        
+        class="h-screen flex flex-col items-center gap-5 bg-black p-4"
       >
         <li>
-          <a href="#home" class="hover:text-gray-400 text-xl font-medium">Home</a>
+          <a href="#home" class="hover:text-gray-400 text-xl font-medium"
+            >Home</a
+          >
         </li>
         <li>
           <a href="#services" class="hover:text-gray-400 text-xl font-medium"
@@ -102,7 +107,9 @@
           >
         </li>
         <li>
-          <a href="#about" class="hover:text-gray-400 text-xl font-medium">About</a>
+          <a href="#about" class="hover:text-gray-400 text-xl font-medium"
+            >About</a
+          >
         </li>
         <li>
           <a href="#questions" class="hover:text-gray-400 text-xl font-medium"
@@ -120,17 +127,16 @@
           >
         </li>
       </ul>
+       </div>
     </header>
 
     <!-- body 1st part -->
 
-    <section
-     id="home" class="mx-h-[1000px] pt-[90px] bg-black py-30 p-10"
-    >
+    <section id="home" class="mx-h-[1000px] pt-[90px] bg-black py-30 p-10">
       <div class="flex flex-wrap gap-20 items-center justify-center">
         <div class="w-[450px] flex flex-col text-center xl:text-left gap-4">
           <!-- text -->
-  
+
           <h1 class="text-white text-3xl font-semibold">
             Become a <span>Web Developer</span>
           </h1>
@@ -140,9 +146,9 @@
             delectus ad vero labore, veniam qui est! Ea laudantium quibusdam
             necessitatibus!
           </p>
-  
+
           <!-- button -->
-  
+
           <div>
             <button
               class="cursor-pointer transition-all bg-blue-500 text-white px-6 py-2 rounded-lg border-blue-600 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px]"
@@ -151,9 +157,9 @@
             </button>
           </div>
         </div>
-  
+
         <!-- images -->
-  
+
         <div class="">
           <img
             src="img/undraw_developer_activity_re_39tg.svg"
@@ -167,10 +173,13 @@
     <!-- body 2st part -->
 
     <section
-      id="services" class="h-[200px] flex items-center justify-center bg-blue-600 p-10"
+      id="services"
+      class="h-[200px] flex items-center justify-center bg-blue-600 p-10"
     >
       <div class="flex flex-col gap-3">
-        <h1 class="text-[18px] sm:text-[20px] md:text-[30px] text-white font-semibold">
+        <h1
+          class="text-[18px] sm:text-[20px] md:text-[30px] text-white font-semibold"
+        >
           Sign Up for Newsletter
         </h1>
         <div class="flex">
@@ -184,7 +193,7 @@
           <input
             type="button"
             value="Discover"
-            class="bg-black rounded-r-[4px] text-white text-[15px] h-10 w-20 xl:w-24  flex"
+            class="bg-black rounded-r-[4px] text-white text-[15px] h-10 w-20 xl:w-24 flex"
           />
         </div>
       </div>
@@ -242,10 +251,7 @@
           class="bg-black w-[250px] lg:w-[250px] sm:w-[560px] py-10 px-3 flex flex-col gap-4 sm:gap-6 items-center text-center"
         >
           <i class="fa-solid fa-users text-2xl text-white"></i>
-          <h1 class="text-white text-3xl px-4">
-            Software 
-            Design
-          </h1>
+          <h1 class="text-white text-3xl px-4">Software Design</h1>
           <p class="text-white">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
             itaque saepe enim rem laboriosam voluptates quos, exercitationem a
@@ -265,7 +271,8 @@
     <!-- body 4st part -->
 
     <section
-      id="dropdown" class="max-h-[1000px] py-20 p-10 flex flex-wrap gap-20 items-center justify-center"
+      id="dropdown"
+      class="max-h-[1000px] py-20 p-10 flex flex-wrap gap-20 items-center justify-center"
     >
       <div>
         <img
@@ -314,10 +321,13 @@
     <!-- body 4st part -->
 
     <section
-      id="about" class="max-h-[1000px] py-20 p-10 flex flex-wrap gap-32 items-center justify-center bg-black"
+      id="about"
+      class="max-h-[1000px] py-20 p-10 flex flex-wrap gap-32 items-center justify-center bg-black"
     >
       <div class="w-80">
-        <h1 class="text-2xl sm:text-3xl font-semibold text-white">Learn The React</h1>
+        <h1 class="text-2xl sm:text-3xl font-semibold text-white">
+          Learn The React
+        </h1>
         <p class="text-sm sm:text-base pt-3 text-white">
           Contrary to popular belief, Lorem lpsum is not simply random text. It
           has roots in a piece of calssical litin Literature from 45 Bc, making
@@ -364,16 +374,22 @@
 
     <section id="questions" class="max-h-[1000px] py-20">
       <div class="flex flex-col justify-center items-center gap-5">
-        <h1 class="text-xl font-semibold sm:text-3xl">Frequent Asked Questions</h1>
+        <h1 class="text-xl font-semibold sm:text-3xl">
+          Frequent Asked Questions
+        </h1>
         <div class="max-h-96 w-64 sm:w-96 md:w-[550px] xl:w-[700px] border">
           <div class="">
-            <div class="h-10 flex items-center justify-between p-2 border-b bg-blue-100">
+            <div
+              class="h-10 flex items-center justify-between p-2 border-b bg-blue-100"
+            >
               <h1 class="text-blue-800">Our Exact location ?</h1>
               <i class="fa-solid fa-chevron-up text-sm text-blue-800"></i>
             </div>
             <div class="h-32 sm:h-28 md:h-24 xl:h-20 p-2 border-b">
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.  hic delectus odio dolorib dolor sit amet consectetur adipisicing elit.  
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. hic
+                delectus odio dolorib dolor sit amet consectetur adipisicing
+                elit.
               </p>
             </div>
           </div>
@@ -408,7 +424,10 @@
 
     <!-- body 6st part -->
 
-    <section id="instuctions" class="bg-blue-600 max-h-[1800px] py-20 flex flex-col gap-10 items-center">
+    <section
+      id="instuctions"
+      class="bg-blue-600 max-h-[1800px] py-20 flex flex-col gap-10 items-center"
+    >
       <div
         class="flex flex-col justify-center items-center text-center p-2 gap-3 md:p-5"
       >
@@ -419,7 +438,9 @@
         </p>
       </div>
 
-      <div class="flex flex-wrap justify-center gap-10 p-3 lg:w-[800px] xl:w-full xl:flex xl:flex-wrap">
+      <div
+        class="flex flex-wrap justify-center gap-10 p-3 lg:w-[800px] xl:w-full xl:flex xl:flex-wrap"
+      >
         <div
           class="bg-white w-[250px] py-10 px-3 flex flex-col gap-4 items-center text-center rounded-sm"
         >
@@ -451,7 +472,7 @@
         >
           <div>
             <img
-              src="img/young-bearded-man-with-striped-shirt_273609-5677.avif"
+              src="img/messi.jpg"
               alt=""
               class="h-20 w-20 rounded-full bg-cover"
             />
@@ -477,7 +498,7 @@
         >
           <div>
             <img
-              src="img/young-bearded-man-with-striped-shirt_273609-5677.avif"
+              src="img/photo (1).jpg"
               alt=""
               class="h-20 w-20 rounded-full bg-cover"
             />
@@ -503,7 +524,7 @@
         >
           <div>
             <img
-              src="img/young-bearded-man-with-striped-shirt_273609-5677.avif"
+              src="img/istockphoto-1364917563-612x612.jpg"
               alt=""
               class="h-20 w-20 rounded-full bg-cover"
             />
@@ -528,13 +549,19 @@
 
     <!-- body 7st part -->
 
-    <section id="contact" class="max-h-[1300px] bg-white py-20 p-3 flex justify-center">
-
-      <div class="flex flex-wrap justify-center gap-14 xl:gap-14 lg:gap-5 lg:w-[600px] xl:w-full">
-
+    <section
+      id="contact"
+      class="max-h-[1300px] bg-white py-20 p-3 flex justify-center"
+    >
+      <div
+        class="flex flex-wrap justify-center gap-14 xl:gap-14 lg:gap-5 lg:w-[600px] xl:w-full"
+      >
         <div class="w-60 flex flex-col gap-5">
           <h1 class="text-2xl font-semibold">WP$HOPM@RT</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus distinctio expedita,</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            distinctio expedita,
+          </p>
           <div class="flex gap-3">
             <i class="fa-brands fa-facebook text-xl"></i>
             <i class="fa-brands fa-instagram text-xl"></i>
@@ -544,66 +571,71 @@
         </div>
 
         <div class="w-60 flex flex-col gap-3">
-           <h1 class="text-2xl font-semibold">SERVICES</h1>
-           <div class="flex flex-col gap-2">
-              <p class="text-[18px]">Prices Deop</p>
-              <p class="text-[18px]">New Products</p>
-              <p class="text-[18px]">Best Sales</p>
-              <p class="text-[18px]">Contact Us</p>
-              <p class="text-[18px]">Sitemap</p>
-              <p class="text-[18px]">Sitemap</p>
-           </div>
-         </div>
+          <h1 class="text-2xl font-semibold">SERVICES</h1>
+          <div class="flex flex-col gap-2">
+            <p class="text-[18px]">Prices Deop</p>
+            <p class="text-[18px]">New Products</p>
+            <p class="text-[18px]">Best Sales</p>
+            <p class="text-[18px]">Contact Us</p>
+            <p class="text-[18px]">Sitemap</p>
+            <p class="text-[18px]">Sitemap</p>
+          </div>
+        </div>
 
-         <div class="w-60 flex flex-col gap-3">
+        <div class="w-60 flex flex-col gap-3">
           <h1 class="text-2xl font-semibold">PAGE LINKS</h1>
           <div class="flex flex-col gap-2 pl-3">
-             <li><a href="">Home</a></li>
-             <li><a href="">About</a></li>
-             <li><a href="">Sarvices</a></li>
-             <li><a href="">Potfolio</a></li>
-             <li><a href="">Pages</a></li>
-             <li><a href="">Contact</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Sarvices</a></li>
+            <li><a href="">Potfolio</a></li>
+            <li><a href="">Pages</a></li>
+            <li><a href="">Contact</a></li>
           </div>
         </div>
 
         <div class="w-60 flex flex-col gap-3">
           <h1 class="text-2xl font-semibold">LOCATION</h1>
           <div class="flex flex-col gap-3">
-              <p><i class="fa-solid fa-location-dot text-blue-500"></i> 419 State 414 Rte Beaver Dams, New York(NY), 14812, USA</p>
-              <p><i class="fa-solid fa-phone text-blue-500"></i> (+607) 936-8058</p>
-              <p><i class="fa-solid fa-envelope text-blue-500"></i> Example@Gmail.Com</p>
-              
+            <p>
+              <i class="fa-solid fa-location-dot text-blue-500"></i> 419 State
+              414 Rte Beaver Dams, New York(NY), 14812, USA
+            </p>
+            <p>
+              <i class="fa-solid fa-phone text-blue-500"></i> (+607) 936-8058
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope text-blue-500"></i>
+              Example@Gmail.Com
+            </p>
           </div>
+        </div>
       </div>
-      </div>
-
     </section>
 
     <!-- body 8st part -->
 
     <section class="h-10 bg-black flex items-center justify-center">
-      <span  class="text-gray-400 text-sm">Copyright © 2022 Wp$hopM@rt</span>
+      <span class="text-gray-400 text-sm">Copyright © 2022 Wp$hopM@rt</span>
     </section>
   </body>
   <script>
-      document.addEventListener('DOMContentLoaded', function() {
-    const menuToggle = document.getElementById('menu-toggle');
-    const mobileMenu = document.getElementById('mobile-menu');
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuToggle = document.getElementById("menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
 
-    // মেনু টগল করার জন্য ইভেন্ট লিসেনার
-    menuToggle.addEventListener('click', function() {
-        mobileMenu.classList.toggle('hidden');
-    });
+      // মেনু টগল করার জন্য ইভেন্ট লিসেনার
+      menuToggle.addEventListener("click", function () {
+        mobileMenu.classList.toggle("hidden");
+      });
 
-    // প্রতিটি মেনু আইটেম ক্লিক করার পর মেনু হাইড করার জন্য ইভেন্ট লিসেনার
-    const menuItems = document.querySelectorAll('#mobile-menu a');
-    menuItems.forEach(item => {
-        item.addEventListener('click', function() {
-            mobileMenu.classList.toggle('hidden');
+      // প্রতিটি মেনু আইটেম ক্লিক করার পর মেনু হাইড করার জন্য ইভেন্ট লিসেনার
+      const menuItems = document.querySelectorAll("#mobile-menu a");
+      menuItems.forEach((item) => {
+        item.addEventListener("click", function () {
+          mobileMenu.classList.toggle("hidden");
         });
+      });
     });
-});
-
   </script>
 </html>
